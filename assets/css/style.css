@@ -921,6 +921,7 @@ section {
 
 .values .card-text {
   color: #4b4949;
+  height: 120px;
 }
 
 .values .read-more a {
@@ -932,7 +933,12 @@ section {
 }
 
 .values .read-more a:hover {
-  text-decoration: underline;
+  font-size: 14px;  
+}
+
+.values .read-more {
+  font-size: 14px;  
+  text-align: right;
 }
 
 .values .card:hover .card-body {
@@ -2327,4 +2333,18 @@ section {
   background: #ff7e54;
   color: #fff;
   text-decoration: none;
+}
+
+.blocker {
+  z-index: 999999 !important;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
 }
