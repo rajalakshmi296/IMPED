@@ -140,7 +140,8 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 50px;
+  width: 150px;
 }
 
 #main {
@@ -568,7 +569,7 @@ section {
 .why-us .content .more-btn {
   display: inline-block;
   background: rgba(255, 255, 255, 0.2);
-  padding: 6px 30px 8px 30px;
+  padding: 8px 30px 8px 30px;
   color: #fff;
   border-radius: 50px;
   transition: all ease-in-out 0.4s;
@@ -1460,7 +1461,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -1793,6 +1794,7 @@ section {
 .blog .entry .entry-footer {
   padding-top: 10px;
   border-top: 1px solid #e6e6e6;
+
 }
 
 .blog .entry .entry-footer i {
@@ -2209,7 +2211,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #656262;
 }
 
@@ -2347,4 +2349,10 @@ table, th, td {
 th, td {
   padding: 5px;
   text-align: left;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
