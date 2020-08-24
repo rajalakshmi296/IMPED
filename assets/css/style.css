@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: #ff7e54;
+  color: #ecd5ba;
   text-decoration: none;
 }
 
@@ -27,6 +27,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .in{
   background-color:#ff7e54;
+}
+.inn{
+  background-color:#ffc0aa;
 }
 /*--------------------------------------------------------------
 # Back to top button
