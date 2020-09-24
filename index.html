@@ -33,22 +33,11 @@
 </head>
 
 <body>
-<!--
-  Modal for POPUP ON LOAD
-  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-            <img class="mw-100" src="assets/img/offer.jpg" alt="Special Offer" >
-        
-      </div>
+
+  <div id="onreadyy" style="overflow: visible !important; max-width: 600px; padding: 0;" class="modal h-auto">
+    <div class="h-100"><img class="mw-100" style="border-radius: 8px;" src="assets/img/offer.jpg" alt="Special Offer" >    
     </div>
   </div>
--->
 
   <!-- ======= Top Bar ======= -->
   <section id="topbar" class="d-none d-lg-block">
@@ -955,9 +944,12 @@
 
   <script>
       $(document).ready(function(){
-          $('#exampleModalCenter').modal('show');  
+        var element = document.createElement("a")
+        element.setAttribute("href", "#onreadyy")
+        element.setAttribute("rel", "modal:open")
+        document.body.appendChild(element)
+        element.click() 
       })
-
   </script>
 
 
